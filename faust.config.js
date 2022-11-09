@@ -8,6 +8,6 @@ import PersistedQueriesPlugin from "./src/plugins/PersistedQueriesPlugin"
  **/
 export default setConfig({
   templates,
-  experimentalPlugins: [new PersistedQueriesPlugin()],
+  experimentalPlugins: [], //[new PersistedQueriesPlugin()],
   possibleTypes,
 })
